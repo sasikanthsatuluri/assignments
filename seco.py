@@ -109,3 +109,14 @@ while(n>0):
     tot=tot+dig
     n=n//10
 print("The total sum of digits is:",tot)'''
+
+def unit(a,b):
+    try:
+        result= a/b
+        return result
+    except Exception as ec:
+        print('please check properly the b value entered',  ec)
+    finally:
+        print('its not the matter')
+
+unit(2,4)

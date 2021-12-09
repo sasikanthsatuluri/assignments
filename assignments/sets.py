@@ -49,3 +49,15 @@ print(setz)          '''                   # creating symmetric between two sets
 cr = Maxmin()
 cr.calci()'''
 
+'''------------------------------------------------------------------------------------------------------------'''
+
+'''class Count:
+    s= {1,2,3,4,5,6}
+    def count(cls):
+        le =0
+        for i in cls.s:
+            le+=1
+        print(le)
+
+c= Count()
+c.count()'''     # counting number of elements in set

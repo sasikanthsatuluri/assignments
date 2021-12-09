@@ -132,7 +132,7 @@ print("Length of list : ", FindLength.find_length())
 
 # 5. Take 2nd,3rd or 4th step and include exception handling
 l1 = [1,2,3,4]
-def find_length(in_list):
+def find_length(l1):
     try:
         le = 0
         for each in l1:
